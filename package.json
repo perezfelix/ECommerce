@@ -1,5 +1,11 @@
 {
   "name": "ECommerce",
   "private": true,
-  "dependencies": {}
+  "dependencies": {},
+   "husky": {
+    "hooks": {
+      "pre-commit": "rubocop && annotate",
+      "pre-push": "rspec"
+    }
+  }
 }

@@ -19,7 +19,8 @@
 
 /node_modules
 /yarn-error.log
-
+.env
+/spec/examples.txt
 /public/assets
 .byebug_history
 
